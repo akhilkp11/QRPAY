@@ -63,7 +63,11 @@ app_license = "mit"
 # role_home_page = {
 # 	"Role": "home_page"
 # }
-
+jinja = {
+    "methods": [
+        "qrpay.api.get_qr_code",   # This exposes your function to Jinja templates
+    ]
+}
 # Generators
 # ----------
 
