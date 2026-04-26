@@ -1,6 +1,6 @@
 ### QRPAY
 
-Payment using qr
+invoice qr code for payment
 
 ### Installation
 
@@ -8,8 +8,8 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app qrpay
+bench get-app $URL_OF_THIS_REPO --branch main
+bench install-app qrcode_pay
 ```
 
 ### Contributing
@@ -17,7 +17,7 @@ bench install-app qrpay
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
 
 ```bash
-cd apps/qrpay
+cd apps/qrcode_pay
 pre-commit install
 ```
 
